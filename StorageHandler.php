@@ -6,7 +6,7 @@ use Cleantalk\Common\Templates\Singleton;
 
 abstract class StorageHandler
 {
-    use Singletone;
+    use Singleton;
 
     public static function get($option_name) {
         return static::getInstance()->getOption($option_name);
