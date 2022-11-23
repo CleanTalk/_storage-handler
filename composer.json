@@ -10,8 +10,7 @@
   ],
   "license": "GPL-3.0-or-later",
   "require": {
-    "cleantalk/apbct-installer": "*",
-    "cleantalk/templates": "*"
+    "cleantalk/apbct-installer": "*"
   },
   "config": {
     "allow-plugins": {
